@@ -1,0 +1,12 @@
+:root {
+  --fnt-assistant: "Assistant", sans-serif;
+  --fnt-hind-siliguri: "Hind Siliguri", sans-serif;
+  --fnt-lato: "Lato", sans-serif;
+  --fnt-oxygen: "Oxygen", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
