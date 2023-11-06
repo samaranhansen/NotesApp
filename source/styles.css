@@ -8,7 +8,6 @@
   --main-color: #232d3f;
   --main-color-trans: rgb(34, 44, 63, 0.5);
   --secondary-color: #005b41;
-  --tertiary-color: #008170;
   --font-color: #b2b2b2;
 }
 
@@ -34,8 +33,14 @@ p {
   color: var(--font-color);
 }
 
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 .siteContainer {
   margin: 10vw auto;
+  margin-bottom: 3vw;
   padding: 30px;
   width: 70%;
   min-width: 400px;
@@ -79,7 +84,16 @@ p {
   background-color: var(--main-color-trans);
 }
 
-.img {
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  display: inline-block;
+}
+
+img {
+  width: 20px;
   position: absolute;
   bottom: 20px;
   right: 20px;
