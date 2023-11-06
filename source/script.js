@@ -9,6 +9,7 @@ function addNewNote(event) {
   inputBox.className = "inputBox";
   inputBox.setAttribute("contenteditable", "true");
   img.src = "../media/trash-solid.svg";
+  img.fill = "#b2b2b2";
   noteContainer.appendChild(inputBox).appendChild(img);
 }
 

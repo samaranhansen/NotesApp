@@ -21,6 +21,7 @@
 body {
   background: linear-gradient(135deg, var(--bg-color), var(--main-color));
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -38,9 +39,17 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .siteContainer {
   margin: 10vw auto;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
   padding: 30px;
   width: 70%;
   min-width: 400px;
@@ -90,13 +99,4 @@ a {
 
 .footer p {
   display: inline-block;
-}
-
-img {
-  width: 20px;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
-  fill: var(--font-color);
 }
